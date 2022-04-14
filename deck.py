@@ -20,7 +20,7 @@ class Deck:
         self.game_rounds = (self.limit * 2) -1
 
     def give_cards(self):
-        m = input("press enter")
+        input("press enter")
         if self.round <= self.limit:
             n_cards = self.round
         elif self.round <= self.game_rounds:
